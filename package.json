@@ -1,0 +1,38 @@
+{
+  "name": "performance-chart",
+  "version": "1.0.0",
+  "description": "Performance-chart for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munna/performance-chart.git"
+  },
+  "keywords": [
+    "Performance",
+    "chart",
+    "react",
+    "nodejs"
+  ],
+  "author": "Munna Bhakta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munna/performance-chart/issues"
+  },
+  "homepage": "https://github.com/munna/performance-chart#readme",
+  "peerDependencies": {
+    "react": "^16.9.1",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
